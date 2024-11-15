@@ -1,5 +1,5 @@
-# Grandfather Fox [<img align="right" src=".github/fxaddon.png">](https://addons.mozilla.org/firefox/addon/grandfather-fox/)
-When you're browsing on Firefox, it's easy to lose track of time. The Grandfather Fox add-on turns your browser into a classic grandfather clock that will chime each hour. It promotes time awareness, while also giving your home office a bit of class.
+# Grandfather Clock [<img align="right" src=".github/fxaddon.png">](https://addons.mozilla.org/firefox/addon/grandfather-fox/)
+When you're browsing on Firefox, it's easy to lose track of time. The Grandfather Clock add-on turns your browser into a classic grandfather clock that will chime each hour. It promotes time awareness, while also giving your home office a bit of class.
 
 The add-on currently features a variety of audio packs, including:
 * Traditional grandfather clock

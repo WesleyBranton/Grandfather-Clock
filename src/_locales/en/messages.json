@@ -1,9 +1,9 @@
 {
     "extensionName": {
-        "message": "Grandfather Fox"
+        "message": "Grandfather Clock"
     },
     "extensionDescription": {
-        "message": "Turn Firefox into a grandfather clock that plays a tune at the top of each hour!"
+        "message": "Turn your browser into a grandfather clock that plays a tune at the top of each hour!"
     },
 
     "optionsTitle": {
@@ -137,6 +137,6 @@
     },
 
     "browserActionActiveLabel": {
-        "message": "Click to stop Grandfather Fox chime…"
+        "message": "Click to stop Grandfather Clock chime…"
     }
 }
