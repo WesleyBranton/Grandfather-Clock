@@ -197,7 +197,7 @@ async function migrateToStorageApi() {
     let settings = await browser.storage.local.get(['chime']);
     settings = fillDefaultSettings(settings);
 
-    if (settings.chime == 'custom') {
+    if (settings.chime == 'custom' && typeof IDBFiles == 'object') {
         const database = await IDBFiles.getFileStorage({name: 'chimes'});
         const files = await database.list();
         const data = {
