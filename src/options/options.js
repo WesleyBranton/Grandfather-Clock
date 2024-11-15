@@ -224,7 +224,7 @@ function validateChime(file) {
         previewChime();
     } else {
         stopAudio();
-        audio = new Audio(`../audio/${document.settings.chime.value}/${document.settings.hour.value}.ogg`);
+        audio = new Audio(`../audio/${document.settings.chime.value}/${document.settings.hour.value}.mp3`);
         audio.addEventListener('ended', isAudioPlaying);
         audio.volume = document.settings.volume.value / 100;
         audio.play();

@@ -58,7 +58,7 @@ async function triggerChime(alarm) {
         const chime = await ChimeManager.getInstance().get(hour);
         url = (chime != null) ? chime.data : null;
     } else {
-        url = browser.runtime.getURL(`audio/${settings.chime}/${hour}.ogg`);
+        url = browser.runtime.getURL(`audio/${settings.chime}/${hour}.mp3`);
     }
 
     if (typeof url != 'string') {
