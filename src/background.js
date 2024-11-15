@@ -268,9 +268,9 @@ function openFeedback() {
     });
 }
 
-const ALARM_NAME = 'grandfather-fox';
+const ALARM_NAME = 'grandfather-clock';
 const OFFSCREEN_DOCUMENT = 'offscreen/offscreen.html';
-const webBase = 'https://addons.wesleybranton.com/addon/grandfather-fox';
+const webBase = 'https://addons.wesleybranton.com/addon/grandfather-clock';
 
 if (typeof browser != 'object') { // Chrome
     importScripts('crossbrowser.js', 'shared/storageUtils.js', 'audioPlayer.js');

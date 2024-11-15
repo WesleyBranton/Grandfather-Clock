@@ -3,7 +3,7 @@
         "message": "Nonno Volpe"
     },
     "extensionDescription": {
-        "message": "Trasforma Firefox nell'orologio del nonno, che suona una musichetta ogni ora!"
+        "message": "Trasforma il tuo browser in un orologio a pendolo che suona una melodia allo scoccare di ogni ora!"
     },
 
     "optionsTitle": {
@@ -131,9 +131,5 @@
     },
     "errorCannotLoad": {
         "message": "Errore durante il caricamento del carillon"
-    },
-
-    "browserActionActiveLabel": {
-        "message": "Clicca per fermare il carillon Nonno Volpe"
     }
 }
