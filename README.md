@@ -10,7 +10,7 @@ Upload your own custom chimes or choose from our selection of presets, which inc
 
 [<img src=".github/firefox.png">](https://addons.mozilla.org/firefox/addon/grandfather-clock/)
 [<img src=".github/chrome.png">](https://chromewebstore.google.com/detail/grandfather-clock/gmfbemfkndmmcfddddncahckaidjoafc)
-<!--[<img src=".github/edge.png">]()-->
+[<img src=".github/edge.png">](https://microsoftedge.microsoft.com/addons/detail/albiakgjpaikibhaknhnpaeaagnhahmn)
 
 ## Release Notes
 Release notes can be found on [this GitHub repository](https://github.com/WesleyBranton/Grandfather-Clock/releases).
