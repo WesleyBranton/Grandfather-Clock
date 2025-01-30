@@ -48,6 +48,7 @@ async function restoreOptions() {
     updateVolumeOutput();
     toggleCustomAudio();
     showCurrentTime(true);
+    updateCurrentTimezone();
 
     if (settings.chime == 'custom') {
         updateCustomAudioList();

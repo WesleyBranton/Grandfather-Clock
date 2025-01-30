@@ -101,6 +101,19 @@ function showCurrentTime(once) {
     }
 }
 
+/**
+ * Update current timezone label when Use System Settings is selected and hide current
+ * timezone label when a specific timezone is selected
+ */
+function updateCurrentTimezone() {
+    if (document.settings.timezone.value == 'auto') {
+        document.getElementById('current-timezone').textContent = Intl.DateTimeFormat().resolvedOptions().timeZone;
+        document.getElementById('current-timezone-container').classList.remove('hide');
+    } else {
+        document.getElementById('current-timezone-container').classList.add('hide');
+    }
+}
+
 refreshTimezoneList();
 showCurrentTime(false);
-document.settings.timezone.addEventListener('change', () => { showCurrentTime(true); });
+document.settings.timezone.addEventListener('change', () => { showCurrentTime(true); updateCurrentTimezone(); });
