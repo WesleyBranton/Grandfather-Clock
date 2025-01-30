@@ -105,6 +105,9 @@
     "timezoneSystemSettings": {
         "message": "Use System Settings"
     },
+    "timezoneOther": {
+        "message": "Other"
+    },
 
     "linkHelp": {
         "message": "Help"
