@@ -272,9 +272,20 @@ const ALARM_NAME = 'grandfather-clock';
 const OFFSCREEN_DOCUMENT = 'offscreen/offscreen.html';
 const webBase = 'https://addons.wesleybranton.com/addon/grandfather-clock';
 
-if (typeof browser != 'object') { // Chrome
-    importScripts('crossbrowser.js', 'shared/storageUtils.js', 'audioPlayer.js');
-    browser.browserAction = browser.action;
+if (typeof browser != "object") {
+    browser = chrome;
+}
+
+switch (browser.runtime.getManifest().manifest_version) {
+    case 2:
+        break;
+    case 3:
+        importScripts('crossbrowser.js', 'shared/storageUtils.js', 'audioPlayer.js');
+        browser.browserAction = browser.action;
+        break;
+    default:
+       console.error("Unsupported manifest version: %d", browser.runtime.getManifest().manifest_version);
+       break; 
 }
 
 browser.runtime.onInstalled.addListener(handleInstalled);
